@@ -1,3 +1,9 @@
+/*
+
+Author: mascIT
+
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <conio.h>
@@ -13,9 +19,8 @@ string reverse(string* s);
 int main(void) {
 
 	string s1;
-	printf("Inserisci nome -> ");
+	printf("Insert string -> ");
 	scan_string(&s1);
-	printf("\n%s\n%d", s1.string, s1.size);
 	system("pause");
 	
 	return EXIT_SUCCESS;
